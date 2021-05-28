@@ -6,10 +6,9 @@ int main (void){
 int imprimir = 1;
 
 while (imprimir <= 11) {
-printf ("Hello World! \n");
+	printf ("%d - Hello World! \n", imprimir);
+	imprimir++;
 }
-
-imprimir++;
 
  }
 
